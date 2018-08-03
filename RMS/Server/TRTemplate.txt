@@ -1,0 +1,18 @@
+<style>
+.colourRed{
+    color: red;
+}
+</style>
+
+<tr>
+<td>{sr_no}</td>
+<td>{name}</td>
+<td class='colourRed'><b>{rating}</b></td>
+<td><b>{result}</b></td>
+<td>{phone_number}</td>
+<td>{email_id}</td>
+<td>{interview_date}</td>
+<td>{interview_time}</td>
+<td>{Recommendations}</td>
+{CategoryColumns}
+</tr>

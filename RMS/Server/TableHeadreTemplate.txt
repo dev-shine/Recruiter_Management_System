@@ -1,0 +1,12 @@
+<tr bgcolor='#70bbd9'>
+<th>Sr.No.</th>
+<th>Name</th>
+<th>Rating</th>
+<th>Result</th>
+<th>Phone Number</th>
+<th>Email</th>
+<th>Interview Date</th>
+<th>Interview Time</th>
+<th>SQL Questions</th>
+<th>ADO.Net Questions</th>
+</tr>

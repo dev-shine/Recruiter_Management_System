@@ -1,0 +1,59 @@
+{
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "devDependencies": {
+    "body-parser": "^1.14.2",
+    "path": "^0.12.7",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.6.2",
+    "pg": "^6.1.2",
+    "express": "^4.13.4",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.10.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cache-manager": "^2.4.0",
+    "cache-manager-redis": "^0.4.0",
+    "compression": "^1.6.2",
+    "cors": "^2.8.3",
+    "express-jwt": "^5.1.0",
+    "file-exists": "^3.0.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "6.2.0",
+    "lodash": "3.10.1",
+    "log4js": "^2.3.3",
+    "moment": "^2.17.1",
+    "nodemailer": "^0.7.1",
+    "randomstring": "^1.1.5",
+    "string.format": "^1.3.1"
+  }
+}

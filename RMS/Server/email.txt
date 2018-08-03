@@ -1,0 +1,65 @@
+<div>Hi {Receiver_Name},<div></div><p>Following is the evaluation of interview.</p>
+<div>
+<table border='1' cellpadding='0' cellspacing='0' width='100%'>
+<tr bgcolor='#70bbd9'>
+<th>Sr.No.</th>
+<th>Name</th>
+<th>Rating</th>
+<th>Result</th>
+<th>Phone Number</th>
+<th>Email</th>
+<th>Interview Date</th>
+<th>Interview Time</th>
+<th>Recommendations</th>
+{CategoryHeaders}
+</tr>
+<tr>
+<td>{sr_no}</td>
+<td>{name}</td>
+<td style="color:red;"><b>{rating}</b></td>
+<td><b>{result}</b></td>
+<td>{phone_number}</td>
+<td>{email_id}</td>
+<td>{interview_date}</td>
+<td>{interview_time}</td>
+<td>{Recommendations}</td>
+{Categories}
+</tr>
+</table>
+
+</div>
+<div id="signature">
+         <p>Regards,</p>
+         <p>Hetal Pushpa Mehta – CEO</p>
+         <p>Ansi ByteCode LLP.</p>
+         <p>D-203, 2nd Floor, Ganesh Meridian, Besides Audi Showroom,</p>
+         <p>Opp. Gujarat High Court, S.G.Highway, Ahmedabad -54</p>
+     </div>
+
+
+</div>
+
+<style>
+table {
+       margin-top: 20px;
+   }
+
+   td {
+       vertical-align: top;
+       padding-left: 5px;
+      }
+
+   li{
+      margin-left: -38px;
+     }
+
+     ul{
+     list-style-type : none;
+     }
+
+     .colourRed{
+     color:red;
+     }
+
+
+   </style>
